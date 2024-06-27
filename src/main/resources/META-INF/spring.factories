@@ -1,0 +1,5 @@
+org.springframework.boot.env.EnvironmentPostProcessor =\
+  ru.komelin.komelinhw3.init.HttpLoggingEnvironmentPostProcessor
+
+org.springframework.boot.diagnostics.AbstractFailureAnalyzer =\
+  ru.komelin.komelinhw3.init.HttpLoggingFailureAnalyzer
